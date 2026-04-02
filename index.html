@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PFO 1 Amsler Tomás</title>
+    <title>Tomas Amsler PFO 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+    <header>
+        <h1>Tomas Amsler Portafolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src= images/Foto-perfil.jpg>
+            <p>Soy un estudiante entusiasta del desarrollo de software, adicto a adquirir más conocimientos y aprender cada vez más sobre programación y el diseño web. Fuera del código, llevo casi dos años practicando Jiu-Jitsu.</p>
+        </section>
+
+        <section id="tarjetas">
+            <h2>Proyectos Destacados</h2>
+            <div class="contenedor-tarjetas">
+                <article class="tarjeta">
+                    <img src= "images/inventario-proyecto.png">
+                    <h3>Sistema de Gestión C#</h3>
+                    <p>Desarrollo de una aplicación de escritorio para manejo de inventarios.</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="images/simulacion-redes.jpg">
+                    <h3>Simulación de Redes</h3>
+                    <p>Configuración de infraestructuras basadas en el modelo OSI.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades y Hobbies</h2>
+            <table>
+                <tr>
+                    <th>Tecnologías</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>C#, SQL, C++, Java</td>
+                    <td>Jiu-Jitsu, Gaming (PC)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="tel">Teléfono:</label>
+                <input type="tel" id="tel" name="tel">
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+       <!-- Sección de Películas Original con Contenedor para Alineación -->
+        <section id="peliculas">
+            <h2>Películas/Juegos Favoritos</h2>
+            <div class="contenedor-peliculas"> <!-- Agregamos este inicio -->
+                <div class="pelicula">
+                    <h3>Dark Souls</h3>
+                <img src="images/dark-souls.jpg">
+                <p>Una obra maestra de diseño de niveles y narrativa ambiental.</p>
+                </div>
+            <div class="pelicula">
+                  <h3>Dredge</h3>
+                <img src="images/dredge.jpg">
+                <p>Un juego indie de pesca con un giro de horror cósmico fascinante.</p>
+            </div>
+            <div class="pelicula">
+                  <h3>Hollow Knight</h3>
+                <img src="images/hollow-knight.jpg">
+              <p>El mejor metroidvania que he jugado por su atmósfera y reto.</p>
+              </div>
+            </div> <!-- Agregamos este cierre -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Amsler Tomas - Estudiante de la Tecnicatura en desarrollo de software. Conéctate conmigo en mis redes sociales.</p>
+    </footer>
+
 </body>
 </html>
