@@ -6,6 +6,8 @@ Este proyecto consiste en una Landing Page de portafolio personal desarrollada c
 * **Institución:** IFTS N.° 29
 * **Fecha de Entrega:** 03 de abril de 2026
 
+* GitHub Pages: https://tomasamsler.github.io/pfo1-amsler/
+
 ## Checklist de Requerimientos
 
 ### Estructura del Proyecto:
