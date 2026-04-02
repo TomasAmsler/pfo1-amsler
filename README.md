@@ -46,4 +46,3 @@ Este proyecto consiste en una Landing Page de portafolio personal desarrollada c
 
 ### Consideraciones Adicionales:
 - [x] El diseño es responsivo y se visualiza bien en dispositivos móviles.
-- [x] Uso de atributos `alt` en todas las imágenes para accesibilidad.
